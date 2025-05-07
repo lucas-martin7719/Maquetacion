@@ -59,7 +59,10 @@ nav {
 .menu ul li ul:hover{
     display: block;
     }
+.menu ul li ul li{
+    padding: 1px 0 1px 0;
 
+}
 .menu a{
     display: block;
     padding: 0.5em 1em;
@@ -76,12 +79,12 @@ nav {
 }
 
 section {
-    position: relative;
+
     background-color: rgb(124, 44, 198);
     color: #fff;
-    width: 78%;
-    height: auto;
-    margin: 0px auto;
+    width: 50%;
+    height: 70;
+ 
 }
 section #s {
     color: mediumslateblue;
@@ -101,7 +104,7 @@ article {
 article #a {
     color: rgb(86, 3, 57);
     text-align: center;
-    font-family: fantasy;
+    font-family:fantasy;
 }
 
 article p {
@@ -111,12 +114,12 @@ article p {
 
 aside {
     position: relative;
+    float:left;
     background-color: rgb(0, 124, 112);
     color: hsl(0, 0%, 100%);
     width: 18%;
     height: 20%;
     margin: 0px auto;
-    float:right;
 }
 footer{
     position: relative;
